@@ -1,24 +1,45 @@
-# signaturemarket
+## Mail Test
 
-## Project setup
-```
-npm install
-```
+- [Project Description](#project-description)
+- [Setup Instructions](#setup-instructions)
+- [File Structure](#file-structure)
+- [Branches](#branches)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Project Description
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Built a mail view with basic functions archiving and reading of mail
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Prerequisite
+- nodejs
+- vue 3.x.x
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Setup Instructions
+- Run `npm install` to install all dependancies
+- `npm run serve` to run dev environment
+- `npm run build` to build project into`/dist` folder
+
+## File Structure
+
+    ├── App.vue
+    ├── assets
+    │   └── logo.png
+    ├── components
+    │   ├── overlay.vue
+    │   └── sideBar.vue
+    ├── main.js
+    ├── router.js
+    ├── routes
+    │   └── inbox.vue
+    ├── store.js
+    └── views
+       └── home.vue
+
+
+
+## Branches
+- `master`: The main and only branch.
+
+
+
+
+---
